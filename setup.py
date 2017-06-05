@@ -21,7 +21,7 @@ requires = []
 
 test_requires = []
 
-with open('README.rst', 'r', 'utf-8') as f:
+with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
 with open('HISTORY.rst', 'r', 'utf-8') as f:
     history = f.read()
@@ -30,7 +30,7 @@ setup(
     name='enertalk_rule_python',
     version='0.1.0',
     description='EnerTalk\'s public interface library for EnerTalk Rule.',
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author='Encored developers',
     author_email='edev@encoredtech.com',
     url='http://www.encoredtech.com',
