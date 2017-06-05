@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class Rule(object):
+class Rule:
 
     __metaclass__ = ABCMeta
 
